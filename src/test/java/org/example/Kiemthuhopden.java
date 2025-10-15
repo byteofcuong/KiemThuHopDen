@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class AppTest
+public class Kiemthuhopden
 {
     @DisplayName("Kiem thu gia tri bien (13  testcase)")
     @ParameterizedTest(name = "GTB {index} => goals={0}, fairPlay={1}, fans={2} -> {3}")
